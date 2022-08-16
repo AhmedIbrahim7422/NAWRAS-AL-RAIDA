@@ -1,0 +1,129 @@
+.left .row{
+    width: 70% !important;
+    margin: 30px 0;
+}
+
+.image-holder{
+    width: 50%;
+    height: 25rem;
+}
+.image-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info{
+    width: 50%;
+}
+.left{
+    width: 70%;
+}
+.info h1{
+    font-weight: 700;
+}
+.info a , .info span {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.right{
+    width: 30%;
+    margin-top: 90px;
+}
+.cards-holder{
+    width: 100%;
+    margin: 25px 0;
+}
+.r-img-holder{
+    width: 30%;
+    height: 70px;
+}
+.r-img-holder img{
+    width: 100%;
+    height: 100%;
+}
+.r-info{
+    width: auto;
+    margin-top: 20px;
+}
+
+.quote:before {
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    content: "”";
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 150px;
+    opacity: .3;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(
+180deg
+);
+}
+
+.quote{
+        /* padding: 3rem; */
+        height: 40rem;
+        color: #fff;
+        position: relative;
+        /* min-height: 250px; */
+        border-radius: 7px;
+        padding: 70px 40px 60px 50px!important;
+        background: #48bca2!important;
+}
+.q-text{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.user-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 1rem;
+}
+@media screen and (max-width:1024px){
+    .q-text {
+        text-align: left;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:980px){
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+}
+@media screen and (max-width:425px){
+    .info {
+        width: 100%;
+    }
+    .image-holder {
+        width: 100%;
+        height: 25rem;
+    }
+    .info h1 {
+        font-weight: 700;
+        width: 100% !important;
+    }
+    .left .row {
+        width: 100% !important;
+        margin: 30px 0;
+    }
+}
+

@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+    padding: 6rem;
+    background-color: #edeff2;
+}
+section{
+    margin: 50px 0;
+}
+@media screen and (max-width:260px){
+    header {
+        text-align: center;
+        padding: 4rem;
+    }
+    a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 210px){
+a {
+    font-size: 9px;
+}
+h1{
+    font-size: 1rem;
+}
+li{
+    font-size: .7rem;
+}
+}

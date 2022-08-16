@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+
+h3 {
+  font-size: 1.55rem;
+}
+.container{
+  font-family: "Lora",Sans-serif;
+  max-width: 90%;
+}
+.questions {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.questions .container p {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+ .questions .container p span.typed-text {
+    font-weight: normal;
+    color: #4a5ed0;
+  }
+ .questions .container p span.cursor {
+    display: inline-block;
+    background-color: #4a5ed0;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+ .questions .container p span.cursor.typing {
+    animation: none;
+  }
+  /* .card.card1{
+    width: 32.33333%; 
+    padding: 10px 10px 7px 70px; 
+    background-color: #f3f3f3;
+    margin-right: 10px;
+    border: none;
+    height: 15rem !important;
+  }*/
+ 
+  .card li{
+    margin-left: -4rem;
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 12%;
+    border: solid 1px;
+    height: 25%;border-color: #bbb
+    ;color: #bbb;
+    border-radius: 50%;
+    background-color: white;
+  
+  }
+  .card li i{
+    margin-left: 0.6rem;
+    font-size: 1.1rem;
+  }
+  .card.card2,.card.card1{
+    width: 31.33333%; 
+    padding: 10px 10px 7px 70px; 
+    background-color: #f3f3f3;
+    border: none;
+    margin-right: 10px;
+    height: 15rem !important;
+  }
+  
+  .card.card2,.card3{
+    width: 31.33333%; 
+    padding: 10px 10px 7px 70px; 
+    background-color: #f3f3f3;
+    border: none;
+    margin-right: 10px;
+    height: 20rem;
+  }
+  .card3{
+    position: relative;
+  }
+  .card2 li,.card1 li{
+    margin-left: -4rem;
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 12%;
+    border: solid 1px;
+    height: 20%;
+    border-color: #797979;
+    color: #797979;;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .card3 li{
+    margin-left: -4rem;
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 12%;
+    border: solid 1px;
+    height: 13%;
+    border-color: #797979;
+    color: #797979;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .card3 li i{
+    margin-left: 0.6rem;
+    font-size: 1.1rem;
+  }
+  .card2 span {
+    width: 1px;
+    height: 6.4rem;
+    background-color: #bbb;
+    position: absolute;
+    left: 1.7rem;
+    top: 52px;
+  }
+  .card1 span {
+    width: 1px;
+    height: 7.4rem;
+    background-color: #bbb;
+    position: absolute;
+    left: 1.7rem;
+    top: 55px;
+}
+.s1{
+  width: 1px;
+  height: 4.3rem;
+  background-color: #bbb;
+  position: absolute;
+  left: 1.7rem;
+  top: 50px;
+}
+.s2{
+  width: 1px;
+  height: 4.4rem;
+  background-color: #bbb;
+  position: absolute;
+  left: 1.7rem;
+  top: 157px;
+}
+.card2 li, .card1 li {
+  height: 19%;
+}
+.card1 span {
+  top: 52px;
+}
+.img-holder{
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  margin: -50px auto 20px auto;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  background-image: url(../img/__p__.png);
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content{
+  text-align: center;
+}
+.f-card{
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+}
+  @keyframes blink {
+    0%  { background-color: #4a5ed0; }
+    49% { background-color: #4a5ed0; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #4a5ed0; }
+  }
+
+  @media screen and (max-width:768px){
+    .right{
+      width: 100% !important;
+    }
+    .left{
+      width: 100% !important;
+    }
+    .questions .container p {
+      font-size: 16px;
+      
+    }
+    .card1 ,.card2,.card3{
+      width: 100% !important;
+      margin-bottom: 15px;
+    }
+    .card2 li, .card1 li, .card3 li  {
+      margin-left: -4rem;
+      list-style: none;
+      font-size: 1.5rem;
+      display: inline-block;
+      width: 7%;
+    }
+    .card1 span {
+      width: 1px;
+      height: 4.4rem;
+    }
+    .card2 span {
+      width: 1px;
+      height: 2.8rem;
+    }
+    .s1 {
+      width: 1px;
+      height: 2.8rem;
+    }
+    .s2 {
+      width: 1px;
+      height: 2.9rem;
+      background-color: #bbb;
+      position: absolute;
+      left: 1.7rem;
+      top: 134px;
+    }
+  .second-cards a{
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width:425px){
+  .location{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.questions .container p {
+  font-size: 0.8rem;
+}
+.card2 li, .card1 li, .card3 li {
+  margin-left: -4rem;
+  list-style: none;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 12%;
+}
+.card1 span {
+  width: 1px;
+  height: 5.8rem;
+}
+.card2 span {
+  width: 1px;
+  height: 6rem;
+}
+.s1 {
+  width: 1px;
+  height: 4rem;
+}.s2 {
+  width: 1px;
+  height: 4rem;
+  background-color: #bbb;
+  position: absolute;
+  left: 1.7rem;
+  top: 158px;
+}
+}
+@media screen and (max-width: 320px){
+.card2 li, .card1 li, .card3 li {
+    margin-left: -4rem;
+    list-style: none;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 17%;
+}
+h3 {
+  font-size: 1rem;
+}
+.card1 span {
+  width: 1px;
+  height: 6.6rem;
+}
+.card2 span {
+  width: 1px;
+  height: 6.3rem;
+}
+.s1 {
+  width: 1px;
+  height: 3.6rem;
+}
+.s2 {
+  width: 1px;
+  height: 4rem;
+  background-color: #bbb;
+  position: absolute;
+  left: 1.7rem;
+  top: 146px;
+}
+}
